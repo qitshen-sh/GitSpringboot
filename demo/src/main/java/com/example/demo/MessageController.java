@@ -11,8 +11,14 @@ public class MessageController {
         return "hello";
     }
 
+<<<<<<< HEAD
     @GetMapping("/greet")
     public String greet(){
         return "greet";
+=======
+    @GetMapping("/hi")
+    public String hi(){
+        return "hi";
+>>>>>>> branch1
     }
 }
