@@ -10,4 +10,9 @@ public class MessageController {
     public String hello(){
         return "hello";
     }
+
+    @GetMapping("/greet")
+    public String greet(){
+        return "greet";
+    }
 }
